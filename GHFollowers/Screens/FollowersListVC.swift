@@ -70,11 +70,11 @@ class FollowersListVC: GFDataLoadingVC {
     }
     
     func configureSearchController() {
-        let searchController                                     = UISearchController()
-        searchController.searchResultsUpdater                    = self
-        searchController.searchBar.placeholder                   = "Search for a username"
-        searchController.obscuresBackgroundDuringPresentation    = false
-        navigationItem.searchController                          = searchController
+        let searchController                                   = UISearchController()
+        searchController.searchResultsUpdater                  = self
+        searchController.searchBar.placeholder                 = "Search for a username"
+        searchController.obscuresBackgroundDuringPresentation  = false
+        navigationItem.searchController                        = searchController
     }
     
     
